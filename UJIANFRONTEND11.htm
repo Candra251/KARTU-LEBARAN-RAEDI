@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <style>
+
+        body {
+            background-color: blanchedalmond;
+        }
+        #box {
+            display:grid;
+             grid-template-columns: repeat(3, 1fr);
+             grid-template-rows: repeat(3, 1fr);
+             grid-gap: 3px;
+            width: 200px;
+            height: 200px;
+            margin: 120px;
+            margin-left: 520px;
+            background-color:blanchedalmond;
+            transform: perspective(700px)
+                        rotateZ(45deg)
+        }
+
+        #box div:nth-child(odd) {
+            background-color: rgb(55, 155, 52);
+        }
+
+        #box div:nth-child(even) {
+            background-color:rgb(78, 211, 78);
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"> 
+        <div class="tupat1"></div>
+        <div class="tupat2"></div>
+        <div class="tupat3"></div>
+        <div class="tupat4"></div>
+        <div class="tupat5"></div>
+        <div class="tupat6"></div>
+        <div class="tupat7"></div>
+        <div class="tupat8"></div>
+        <div class="tupat9"></div>
+    </div>
+    <h2> .: Selamat Hari Raya Idul Fitri :.</h2>
+    <h2> Mohon Maaf Lahir dan Batin <img src="hati.png"></h2>
+</body>
+</html>
